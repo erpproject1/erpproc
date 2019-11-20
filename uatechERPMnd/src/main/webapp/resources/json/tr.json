@@ -1,0 +1,17 @@
+ { 
+    "employee": { "title": "M\u00DC\u015ETER\u0130 L\u0130STES\u0130",
+                     "button1": "Yeni Kay\u0131t",
+                     "datatableLang": "js/vendor/datatables/i18n/tr.lang",
+                     "t_no": "No",
+                      "t_CompanyId": "\u015E\u0130rket K\u0130ml\u0130k No",
+                      "t_Type": "T\u0130p",
+                      "t_Name": "Ad\u0131",
+                     "t_MName": "\u0130k\u0130nc\u0130 Ad\u0131",
+                     "t_LName": "Soyad\u0131",
+                     "t_NationalId": "TC K\u0130ml\u0130k No",
+                      "t_PassportNo": "Pasaport No",
+                     "t_Country": "\u00DClke"}  
+                ,  
+    "personal":  { "title": "PERSONAL",
+                     "button1": "" }  
+  }  

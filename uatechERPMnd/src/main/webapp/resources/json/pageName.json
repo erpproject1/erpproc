@@ -1,0 +1,211 @@
+ 
+[ 
+ {  
+    "code": "home", 
+    "name": "Home (Dynamia)",
+    "type":1   
+  },{  
+    "code": "TMhome", 
+    "name": "Home (Trailerman)",
+    "type":1   
+  },
+  {  
+    "code": "humanresources", 
+    "name": "Human Resources",
+    "type":0    
+  },
+  {  
+    "code": "employee", 
+    "name": "Employee List",
+    "type":1    
+  }, 
+  {  
+    "code": "personel", 
+    "name": "Personal",
+    "type":1       
+  },
+  {  
+    "code": "personelFormContractor", 
+    "name": "Personal Form Contractor",
+    "type":1       
+  } ,
+  {  
+    "code": "department", 
+    "name": "Department",
+    "type":1       
+  } ,
+  {  
+    "code": "jobDescription", 
+    "name": "Job Description",
+    "type":1       
+  } ,
+  {  
+    "code": "designation", 
+    "name": "Designation",
+    "type":1       
+  } ,
+  {  
+    "code": "personelFormClient", 
+    "name": "Personal Form Client",
+    "type":1       
+  } ,
+  {  
+    "code": "quality", 
+    "name": "Quality",
+    "type":0    
+  } ,
+  {  
+    "code": "inspectionAndTestPlan", 
+    "name": "Inspection And Test Plan",
+    "type":1       
+  } ,
+  {  
+    "code": "inspectionRequest", 
+    "name": "Inspection Request",
+    "type":1       
+  } ,
+  {  
+    "code": "auditPlan", 
+    "name": "Audit Plan",
+    "type":1       
+  } ,
+  {  
+    "code": "projectQI", 
+    "name": "PQI",
+    "type":1       
+  } ,
+  {  
+    "code": "manpowerRequirement", 
+    "name": "Manpower Requirement",
+    "type":1       
+  } ,
+  {  
+    "code": "transmittalLog", 
+    "name": "Transmittal Log",
+    "type":1       
+  } ,
+  {  
+    "code": "generalReport", 
+    "name": "General Report",
+    "type":1       
+  },
+  {  
+    "code": "violations", 
+    "name": "Violations",
+    "type":0    
+  } ,
+  {  
+    "code": "violationForm", 
+    "name": "Client Violation",
+    "type":1       
+  } ,
+  {  
+    "code": "nonConformance", 
+    "name": "Internal NCR",
+    "type":1       
+  } ,
+  {  
+    "code": "nonConformanceSet", 
+    "name": "Internal NCR Setting",
+    "type":1       
+  } ,
+  {  
+    "code": "procurement", 
+    "name": "Procurement",
+    "type":0    
+  } ,
+  {  
+    "code": "safety", 
+    "name": "Safety",
+    "type":0    
+  } ,
+  {  
+    "code": "finance", 
+    "name": "Finance" ,
+    "type":0   
+  } ,
+  {  
+    "code": "accounting", 
+    "name": "Accounting",
+    "type":0    
+  } ,
+  {  
+    "code": "customerrelations", 
+    "name": "Customer Relations",
+    "type":0    
+  } ,
+  {  
+    "code": "equipmentmanagement", 
+    "name": "Equipment Management",
+    "type":0    
+  } ,
+  {  
+    "code": "Construction", 
+    "name": "Construction" ,
+    "type":0   
+  } ,
+  {  
+    "code": "settings", 
+    "name": "Settings" ,
+    "type":0   
+  } ,
+  {  
+    "code": "userNameDefine", 
+    "name": "Add User",
+    "type":1      
+  } ,
+  {  
+    "code": "userAuthorized", 
+    "name": "User Authorized",
+    "type":1       
+  },
+  {  
+    "code": "dashboardSet", 
+    "name": "Dashboard Setting",
+    "type":1       
+  } ,
+  {  
+    "code": "WIRsetting", 
+    "name": "WIR Setting",
+    "type":1       
+  } ,
+  {  
+    "code": "documentType", 
+    "name": "Document Type",
+    "type":1       
+  } ,
+  {  
+    "code": "activityList", 
+    "name": "Activity List" ,
+    "type":1      
+  } ,
+  {  
+    "code": "transmittalVariants", 
+    "name": "Transmittal Variants",
+    "type":1       
+  } ,
+  {  
+    "code": "codification", 
+    "name": "Codification" ,
+    "type":1      
+  } ,
+  {  
+    "code": "itemInfo", 
+    "name": "Item Info",
+    "type":1       
+  }   ,
+  {  
+    "code": "eventDefine", 
+    "name": "Event Define",
+    "type":1       
+  }  ,
+  {  
+    "code": "ALL", 
+    "name": "ALL PAGE",
+    "type":1       
+  }  
+   
+]
+ 
+ 
+  

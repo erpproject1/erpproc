@@ -1,0 +1,21 @@
+ { 
+    "employee": { "title": "قائمة موظف",
+                     "button1": "خلق جديد إبداع جديد",
+                     "datatableLang": "js/vendor/datatables/i18n/arabic.lang",
+                     "t_no": "لا",
+                      "t_CompanyId": "هوية الشركة",
+                      "t_Type": "اكتب",
+                      "t_Name": "اسم",
+                     "t_MName": "الاسم الوسطى",
+                     "t_LName": "الكنية",
+                     "t_NationalId": "الهوية الوطنية",
+                      "t_PassportNo": "رقم جواز السفر",
+                     "t_Country": "بلد"}  
+                ,  
+    "personal":  { "title": "PERSONAL",
+                     "button1": "" }  
+  } 
+ 
+ 
+ 
+  

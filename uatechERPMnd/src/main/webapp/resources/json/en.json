@@ -1,0 +1,21 @@
+ { 
+    "employee": { "title": "EMPLOYEE LIST",
+                     "button1": "Create New",
+                     "datatableLang": "js/vendor/datatables/i18n/en.lang",
+                     "t_no": "No",
+                      "t_CompanyId": "Company ID",
+                      "t_Type": "Type",
+                      "t_Name": "Name",
+                     "t_MName": "M. Name",
+                     "t_LName": "L. Name",
+                     "t_NationalId": "National Id",
+                      "t_PassportNo": "Passport No",
+                     "t_Country": "Country"}  
+                ,  
+    "personal":  { "title": "PERSONAL",
+                     "button1": "" }  
+  } 
+ 
+ 
+ 
+  

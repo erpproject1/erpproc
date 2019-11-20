@@ -1,0 +1,43 @@
+ 
+[ 
+ { 
+    "name": "Transmittal Status (Table)",  
+    "id": 1
+  },
+ { 
+    "name": "Transmittal Status (Bar)",  
+    "id": 2  
+  },
+ { 
+    "name": "Transmittal Status (Radar)",  
+    "id": 3
+  } ,
+ { 
+    "name": "Transmittal Rejection Rates",  
+    "id": 4
+  } ,
+ { 
+    "name": "PQI Last 3 Months",  
+    "id": 5
+  } ,
+ { 
+    "name": "PQI Last Months",  
+    "id": 6
+  } ,
+ { 
+    "name": "Manpower",  
+    "id": 7
+  } ,
+ { 
+    "name": "RFI Status",  
+    "id": 8
+  } ,
+ { 
+    "name": "Document Approval Status",  
+    "id": 9
+  } 
+   
+]
+ 
+ 
+  
