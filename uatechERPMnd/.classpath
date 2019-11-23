@@ -27,14 +27,5 @@
 	</classpathentry>
 	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/uatechErpBLMnd"/>
 	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/uatechRAPMnd"/>
-	<classpathentry exported="true" kind="lib" path="C:/Program Files/sts-bundle/erportak/commonLib/xmlworker-5.5.13.1.jar" sourcepath="C:/Users/nino/.m2/repository/com/itextpdf/tool/xmlworker/5.5.13.1/xmlworker-5.5.13.1-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="com.itextpdf.tool"/>
-			<attribute name="maven.artifactId" value="xmlworker"/>
-			<attribute name="maven.version" value="5.5.13.1"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

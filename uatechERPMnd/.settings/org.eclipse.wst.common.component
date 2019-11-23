@@ -5,12 +5,6 @@
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
-        <dependent-module archiveName="uatechRAPMnd.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/uatechRAPMnd/uatechRAPMnd">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="uatechErpBLMnd.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/uatechErpBLMnd/uatechErpBLMnd">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
 		<property name="java-output-path" value="target/classes"/>
         <property name="context-root" value="erportak"/>
 	</wb-module>

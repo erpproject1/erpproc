@@ -189,6 +189,21 @@
 			<artifactId>javase</artifactId>
 			<version>3.3.3</version>
 		</dependency>
+		
+		<!-- APCHE POI added by FD-->
+		<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.17</version>
+</dependency>
+
+		
+		<!-- APCHE POI OOXML added by FD-->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.17</version>
+</dependency>
 
 	</dependencies>
 	<build>
