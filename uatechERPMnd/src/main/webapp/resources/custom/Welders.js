@@ -1,14 +1,55 @@
 $(document).ready(function() {
-	
+	getWelders();
 	
 });
+
+
+
+function getWelders()
+{
+	$.ajax({
+		type : "GET",
+		url : 'getWelders', 
+		success : function(data) { 			 
+			//GETTABLE
+		     	$('#actTable').DataTable( {		     		 
+					"bDestroy": true,
+					"aaData": data,
+					"columns" : [
+						{ "data" : 'id','title':'#' }, 
+						{ "data" : 'badgeNo','title':'Badge No' }, 
+						{ "data" : 'name','title':'Name' },
+						{ "data" : 'jobDescription','title':'Job Description' },
+						{ "data" : 'designation','title':'Designation' },
+			            { "data" : 'discipline','title':'Discipline'},
+			            { "data" : 'location','title':'Location'}, 
+			            { "data" : 'activities','title':'Activities'},
+			            { "data" : 'mobileNumber','title':'Mobile Number'},
+			            { "data" : 'remarks','title':'Remarks'},
+			            { "data" : null,"render":function (data) {
+		                   	 return '<button  type="button" onclick="deleteWelders(this,'+data.id+') "  class="btn btn-default btn-icon"><span class="fa fa-times"></span></button> ';
+		                 } } 
+			            ]
+			        
+				} );
+			 
+			
+		},
+		error : function(data) {
+			alert("Error!");
+		},
+       
+
+	});
+}
+
 
 
 function addWelder() {
 
 		var param = {
 			name : $("#txtName").val(),
-			activities:$("txtActivities").val(),
+			activities:$("#txtActivities").val(),
 			badgeNo:$("#txtBageNo").val(),
 			designation:$("#txtDesignation").val(),
 			discipline:$("#txtDiscipline").val(),
@@ -17,6 +58,7 @@ function addWelder() {
 			mobileNumber:$("#txtMobileNumber").val(),
 			remarks:$("#txtRemarks").val()
 		}
+		console.log(param);
 		var ser_data = JSON.stringify(param);
 		$.ajax({
 			type : "POST",
@@ -25,7 +67,7 @@ function addWelder() {
 			data : ser_data,
 			success : function(data) {
 				bildirim('s',data);
-				//getUpperWelders();
+				getWelders();
 			},
 			error : function(data) {
 				if(data.status=='401') bildirim('warning',"You are not authorized");    

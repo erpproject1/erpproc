@@ -1,6 +1,8 @@
 package com.uatech.erp;
  
 
+import java.util.ArrayList;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,13 +46,11 @@ public class WeldersController {
 		WeldersService.delete(oldWelders); 
 		return new ResponseEntity<>("Welders deleted succesfully.",HttpStatus.CREATED);    
 	}	
+	 
 	
-	@RequestMapping(value = "/getWelders", method = RequestMethod.POST)
-	public ResponseEntity< Welders > getWelders(@RequestBody Welders welder , HttpServletRequest request)
-	{
-		Long ii=welder.getId();
-		return new ResponseEntity<>( WeldersService.getFindById(welder.getId()), HttpStatus.CREATED);
-	} 
-	
+	@RequestMapping(value = "/getWelders", method = RequestMethod.GET)
+	public ResponseEntity<ArrayList<Welders>> getWelders(HttpServletRequest request) { 
+		return new ResponseEntity<>(WeldersService.getAll(), HttpStatus.OK);
+	}
 	
 	} 

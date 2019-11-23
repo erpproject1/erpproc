@@ -17,12 +17,7 @@
 <!-- CSS INCLUDE -->
 <link rel="stylesheet" href="css/styles.css">
 <!-- EOF CSS INCLUDE -->
-<style>
-   .btn{
-    float:right;
-    
-   }
-</style>
+
 </head>
 <body>
 	<!-- APP WRAPPER -->
@@ -64,13 +59,9 @@
 										<div
 											class="app-heading app-heading-small app-heading-condensed padding-left-0">
 											<div class="title">
-												<h2> Welders</h2>
+												<h2>New Welders</h2>
+												<p>Add New Welders</p>
 											</div>
-											<div class="col-md-12">
-															<a href="WelderAdd" id="btnSave" class=" btn btn-success btn-icon-fixed" type="button">
-																<span class="icon-arrow-right"></span>New Welders 
-															</a>
-														</div>
 										</div>
 
 										<div>
@@ -80,15 +71,71 @@
 
 												<!-- BASIC INPUTS   Personal -->
 												<form class="form-horizontal">
-												   
-													<div class="block-content">
+												   <div class="form-group">
+														<label class="col-md-2 control-label">Badge No</label>
+														<div class="col-md-6">
+															<input type="text" id="txtBageNo"  data-validation="required" class="form-control" placeholder="Badge No ...">
+														</div>
+													</div>
 
-														<table id="actTable" style="width:100%"
-											class="table table-striped table-bordered table-responsive">
-											<thead>
-												
-											</thead>
-										</table>
+													<div class="form-group">
+														<label class="col-md-2 control-label">Name</label>
+														<div class="col-md-6">
+															<input type="text" id="txtName"  data-validation="required" class="form-control" placeholder="Name ...">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-md-2 control-label">Job Description</label>
+														<div class="col-md-6">
+															<input type="text" id="txtJobDescription"  data-validation="required" class="form-control" placeholder="Job Description...">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-md-2 control-label">Designation</label>
+														<div class="col-md-6">
+															<input type="text" id="txtDesignation"  data-validation="required" class="form-control" placeholder="Designation...">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-md-2 control-label">Discipline</label>
+														<div class="col-md-6">
+															<input type="text" id="txtDiscipline"  data-validation="required" class="form-control" placeholder="Discipline...">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-md-2 control-label">Location</label>
+														<div class="col-md-6">
+															<input type="text" id="txtLocation"  data-validation="required" class="form-control" placeholder="Location...">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-md-2 control-label">Activities</label>
+														<div class="col-md-6">
+															<input type="text" id="txtActivities"  data-validation="required" class="form-control" placeholder="Activities...">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-md-2 control-label">Mobile Number</label>
+														<div class="col-md-6">
+															<input type="text" id="txtMobileNumber"  data-validation="required" class="form-control" placeholder="Mobile Number...">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-md-2 control-label">Remarks</label>
+														<div class="col-md-6">
+															<input type="text" id="txtRemarks"  data-validation="required" class="form-control" placeholder="Remarks...">
+														</div>
+													</div>
+													<div class="form-group">
+														<div class="col-md-2">
+														
+														</div>
+														<div class="col-md-3">
+															<button id="btnSave" class=" btn btn-success btn-icon-fixed" type="button"  onclick="addWelder()">
+																<span class="icon-arrow-up"></span>Save 
+															</button>
+														</div>
 													</div>
 
 

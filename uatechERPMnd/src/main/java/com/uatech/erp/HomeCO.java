@@ -288,6 +288,11 @@ public class HomeCO {
 
 		return "Welders"; 
 	}
+	@RequestMapping(value = "/WeldersAdd", method = RequestMethod.GET)
+	public String WeldersAdd(Locale locale, Model model) {
+
+		return "WeldersAdd"; 
+	}
 	@RequestMapping(value = "/Equipment", method = RequestMethod.GET)
 	public String Equipment(Locale locale, Model model) {
 
