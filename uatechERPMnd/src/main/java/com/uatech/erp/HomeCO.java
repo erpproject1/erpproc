@@ -47,6 +47,7 @@ public class HomeCO {
 	
 	public String getDashboard(HttpServletRequest request)
 	{
+		
 	 String sDash="0,0";
 	 try {
 		
@@ -281,5 +282,20 @@ public class HomeCO {
 	public String PipingClass(Locale locale, Model model) {
 
 		return "PipingClass"; 
+	}
+	@RequestMapping(value = "/Welders", method = RequestMethod.GET)
+	public String Welders(Locale locale, Model model) {
+
+		return "Welders"; 
+	}
+	@RequestMapping(value = "/Equipment", method = RequestMethod.GET)
+	public String Equipment(Locale locale, Model model) {
+
+		return "Equipment"; 
+	}
+	@RequestMapping(value = "/CheckList", method = RequestMethod.GET)
+	public String CheckList(Locale locale, Model model) {
+
+		return "CheckList"; 
 	}
 }

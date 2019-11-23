@@ -231,8 +231,17 @@ public class NavigationCO {
 				if(!f.contains("gantt"))
 					nav=nav+"  <li><a href=\"gantt\"><span class=\"nav-icon-hexa\">EVE</span>GANTT ÞEMALARI"+yeni+"</a></li> " ;
 								
+					
+					
+					nav=nav+"<li><a href=\"#\"><span class=\"nav-icon-hexa\">WEL</span>Welding</a>" 
+							+"<ul>";
 					nav=nav+"  <li><a href=\"PipingClass\"><span class=\"nav-icon-hexa\">Pipe</span>PipingClass"+yeni+"</a></li> " ;
-				
+					nav=nav+"  <li><a href=\"Welders\"><span class=\"nav-icon-hexa\">Weld</span>Welders"+yeni+"</a></li> " ;
+					nav=nav+"  <li><a href=\"Equipment\"><span class=\"nav-icon-hexa\">EQU</span>Equipment"+yeni+"</a></li> " ;
+					nav=nav+"  <li><a href=\"CheckList\"><span class=\"nav-icon-hexa\">CHK</span>CheckList"+yeni+"</a></li> " ;
+					nav=nav+"</ul>"
+							+"</li>";
+					
 					if(!f.contains("settings"))
 				{
 					nav=nav+"<li><a href=\"#\"><span class=\"nav-icon-hexa\">COO</span>Fýrat Proje"+yeni+"</a>" 

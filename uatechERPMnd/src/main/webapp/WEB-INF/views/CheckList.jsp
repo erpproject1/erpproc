@@ -37,8 +37,8 @@
 				<!-- START PAGE HEADING -->
 				<div class="app-heading app-heading-bordered app-heading-page">
 					<div class="title">
-						<h1>PipingClass</h1>
-						<p>Manage PipingClass</p>
+						<h1>CheckList</h1>
+						<p>Manage CheckList</p>
 					</div>
 				</div>
 
@@ -58,8 +58,8 @@
 										<div
 											class="app-heading app-heading-small app-heading-condensed padding-left-0">
 											<div class="title">
-												<h2>New PipingClass</h2>
-												<p>Add New PipingClass</p>
+												<h2>New CheckList</h2>
+												<p>Add New CheckList</p>
 											</div>
 										</div>
 
@@ -70,71 +70,40 @@
 
 												<!-- BASIC INPUTS   Personal -->
 												<form class="form-horizontal">
-												   <div class="form-group">
-														<label class="col-md-2 control-label">Badge No</label>
-														<div class="col-md-6">
-															<input type="text" id="txtBageNo"  data-validation="required" class="form-control" placeholder="Badge No ...">
-														</div>
-													</div>
 
 													<div class="form-group">
-														<label class="col-md-2 control-label">Name</label>
+														<label class="col-md-2 control-label">CheckList
+															Name</label>
 														<div class="col-md-6">
-															<input type="text" id="txtName"  data-validation="required" class="form-control" placeholder="Name ...">
+															<input type="text" id="CheckList"  data-validation="required" class="form-control" placeholder="CheckList Name">
 														</div>
 													</div>
 													<div class="form-group">
-														<label class="col-md-2 control-label">Job Description</label>
-														<div class="col-md-6">
-															<input type="text" id="txtJobDescription"  data-validation="required" class="form-control" placeholder="Job Description...">
+
+														<label class="col-md-2 control-label">Upper
+															CheckList</label>
+														<div class="col-md-3">
+
+															<select id="upperCheckList"
+																class="s2-select-search form-control">
+																
+															</select>
 														</div>
+
 													</div>
 													<div class="form-group">
-														<label class="col-md-2 control-label">Designation</label>
-														<div class="col-md-6">
-															<input type="text" id="txtDesignation"  data-validation="required" class="form-control" placeholder="Designation...">
-														</div>
-													</div>
-													<div class="form-group">
-														<label class="col-md-2 control-label">Discipline</label>
-														<div class="col-md-6">
-															<input type="text" id="txtDiscipline"  data-validation="required" class="form-control" placeholder="Discipline...">
-														</div>
-													</div>
-													<div class="form-group">
-														<label class="col-md-2 control-label">Location</label>
-														<div class="col-md-6">
-															<input type="text" id="txtLocation"  data-validation="required" class="form-control" placeholder="Location...">
-														</div>
-													</div>
-													
-													<div class="form-group">
-														<label class="col-md-2 control-label">Activities</label>
-														<div class="col-md-6">
-															<input type="text" id="txtActivities"  data-validation="required" class="form-control" placeholder="Activities...">
-														</div>
-													</div>
-													<div class="form-group">
-														<label class="col-md-2 control-label">Mobile Number</label>
-														<div class="col-md-6">
-															<input type="text" id="txtMobileNumber"  data-validation="required" class="form-control" placeholder="Mobile Number...">
-														</div>
-													</div>
-													<div class="form-group">
-														<label class="col-md-2 control-label">Remarks</label>
-														<div class="col-md-6">
-															<input type="text" id="txtRemarks"  data-validation="required" class="form-control" placeholder="Remarks...">
-														</div>
+														<div class="col-md-2"></div>
 													</div>
 													<div class="form-group">
 														<div class="col-md-2">
 														
 														</div>
 														<div class="col-md-3">
-															<button id="btnSave" class=" btn btn-success btn-icon-fixed" type="button"  onclick="addPipingClass()">
+															<button id="btnSave" class=" btn btn-success btn-icon-fixed" type="button"  onclick="addCheckList()">
 																<span class="icon-arrow-up"></span>Save 
 															</button>
 														</div>
+
 													</div>
 													<div class="block-content">
 
@@ -143,8 +112,8 @@
 															<thead>
 																<tr>
 																	<th>Index</th>
-																	<th>PipingClass</th>
-																	<th>Upper PipingClass</th>
+																	<th>CheckList</th>
+																	<th>Upper CheckList</th>
 																	<th>Actions</th>
 
 																</tr>
@@ -237,7 +206,7 @@
 	<script type="text/javascript" src="js/app.js"></script>
 	<script type="text/javascript" src="js/app_plugins.js"></script> 
 	<!-- END APP SCRIPTS -->
-	<script type="text/javascript" src="custom/PipingClass.js"></script> 
+	<script type="text/javascript" src="custom/CheckList.js"></script> 
 	
 
 	<script>

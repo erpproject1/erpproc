@@ -37,8 +37,8 @@
 				<!-- START PAGE HEADING -->
 				<div class="app-heading app-heading-bordered app-heading-page">
 					<div class="title">
-						<h1>PipingClass</h1>
-						<p>Manage PipingClass</p>
+						<h1>Welders</h1>
+						<p>Manage Welders</p>
 					</div>
 				</div>
 
@@ -58,8 +58,8 @@
 										<div
 											class="app-heading app-heading-small app-heading-condensed padding-left-0">
 											<div class="title">
-												<h2>New PipingClass</h2>
-												<p>Add New PipingClass</p>
+												<h2>New Welders</h2>
+												<p>Add New Welders</p>
 											</div>
 										</div>
 
@@ -131,7 +131,7 @@
 														
 														</div>
 														<div class="col-md-3">
-															<button id="btnSave" class=" btn btn-success btn-icon-fixed" type="button"  onclick="addPipingClass()">
+															<button id="btnSave" class=" btn btn-success btn-icon-fixed" type="button"  onclick="addWelder()">
 																<span class="icon-arrow-up"></span>Save 
 															</button>
 														</div>
@@ -143,8 +143,8 @@
 															<thead>
 																<tr>
 																	<th>Index</th>
-																	<th>PipingClass</th>
-																	<th>Upper PipingClass</th>
+																	<th>Welders</th>
+																	<th>Upper Welders</th>
 																	<th>Actions</th>
 
 																</tr>
@@ -237,7 +237,7 @@
 	<script type="text/javascript" src="js/app.js"></script>
 	<script type="text/javascript" src="js/app_plugins.js"></script> 
 	<!-- END APP SCRIPTS -->
-	<script type="text/javascript" src="custom/PipingClass.js"></script> 
+	<script type="text/javascript" src="custom/Welders.js"></script> 
 	
 
 	<script>
